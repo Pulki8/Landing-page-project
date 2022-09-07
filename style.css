@@ -16,6 +16,18 @@
     max-width: 1200px;
 }
 
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
 /* HEADER AND MAIN SECTION */
 
 #main, header, footer {
@@ -42,7 +54,6 @@ header .row{
     list-style-type: none;
 }
 
-
 .main-title {
     font-size: 48px;
     font-weight: 900;
@@ -52,7 +63,7 @@ header .row{
 #main .row {
     justify-content: space-around;
 }
-.main__para, .nav__links li {
+.main__para, .nav__links a {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -61,11 +72,14 @@ header .row{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    position: relative;
+
 }
 
 .main__para {
     line-height: 1.5;
     max-width: 600px;
+
 }
 
 .main__img--wrapper img {
@@ -73,14 +87,12 @@ header .row{
 }
 
 .main__btn{
-    padding: 8px 12px;
-    max-width: 100px;
     border-radius: 6px;
     background-color: #3882f6;
     color: #f9faf8;
     border: none;
-    font-weight: bold;
-    font-size: 16px;
+    position: absolute;
+    bottom: 120px;
 }
 
 /* INFORMATION */
@@ -137,3 +149,34 @@ header .row{
 }
 
 /* SIGN UP */
+
+#sign-up .row {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 40px 120px;
+    border-radius: 10px;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.action__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.action__btn {
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+
+    color: #e5e7eb;
+
+    margin-right: 120px;
+}
+
+/* FOOTER */
+
+footer .row{
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 18px;
+}
