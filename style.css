@@ -63,6 +63,7 @@ header .row{
 #main .row {
     justify-content: space-around;
 }
+
 .main__para, .nav__links a {
     font-size: 18px;
     color: #e5e7eb;
@@ -73,13 +74,11 @@ header .row{
     flex-direction: column;
     gap: 16px;
     position: relative;
-
 }
 
 .main__para {
     line-height: 1.5;
     max-width: 600px;
-
 }
 
 .main__img--wrapper img {
@@ -167,9 +166,7 @@ header .row{
 .action__btn {
     background-color: #3882f6;
     border: 2px solid #e5e7eb;
-
     color: #e5e7eb;
-
     margin-right: 120px;
 }
 
